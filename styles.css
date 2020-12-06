@@ -5,50 +5,79 @@
 
 body {
   display: grid;
+  font-family: arial, sans-serif;
+  font-size: 14px;
 }
 
 nav {
   top: 0;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
+  position: absolute;
+  width: 100%;
+  display: inline-flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
 }
 
-li {
-  display: inline-block;
+.left-nav {
   position: relative;
-  margin: auto;
-  padding: 1%;
+  vertical-align: middle;
+  left: 1%;
+  top: 20px;
+}
+
+.right-nav {
+  position: relative;
+  margin-right: 1%;
 }
 
 main {
   margin: auto;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.google-logo {
+  position: relative;
+  top: 150px;
 }
 
-.google-logo {
-  padding: 15%;
+.search-form {
+  position: relative;
+  top: 160px;
+}
+
+.search-box {
+  padding-bottom: 5px;
+  width: 150px;
+}
+
+footer {
+  background-color: rgba(221, 217, 217, 0.925);
+  opacity: 0.75;
+  position: absolute;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+footer a {
+  text-align: center;
+  font-size: 18px;
+  color: #70757a;
+  padding-left: 30x;
+  padding-right: 30px;
 }
 
 a {
   text-decoration: none;
-  color: grey;
+  color: rgb(12, 12, 12);
+  opacity: o.75;
+  padding-right: 10px;
 }
 
 .sign-in {
   background-color: rgb(33, 125, 230);
   margin: 10px;
-  padding: 10px;
+  padding: 10px 15px;
   border: 1px solid;
   border-radius: 2px;
   font-weight: bold;
