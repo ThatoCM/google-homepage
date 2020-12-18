@@ -88,6 +88,14 @@ a {
   padding-right: 10px;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #3c4043;
+}
+
 .sign-in {
   background-color: rgb(33, 125, 230);
   margin: 10px;
