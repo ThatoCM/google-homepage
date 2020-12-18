@@ -1,8 +1,3 @@
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
 body {
   display: grid;
   font-family: arial, sans-serif;
@@ -45,18 +40,21 @@ main {
 
 .search-box {
   padding-bottom: 5px;
-  width: 150px;
+  width: 300px;
 }
 
 footer {
-  background-color: rgba(221, 217, 217, 0.925);
-  opacity: 0.75;
+  background: #f2f2f2;
+  font-size: 14px;
+  line-height: 40px;
   position: absolute;
+  display: inline-flex;
   justify-content: space-between;
   bottom: 0;
   width: 100%;
   margin: auto;
   text-align: center;
+  border-top: 1px solid #dadce0;
 }
 
 footer a {
@@ -65,6 +63,22 @@ footer a {
   color: #70757a;
   padding-left: 30x;
   padding-right: 30px;
+}
+
+.footer-left {
+  position: relative;
+  vertical-align: middle;
+  left: 1%;
+}
+
+.footer-right {
+  position: relative;
+  vertical-align: middle;
+  right: 1%;
+}
+
+.footer-centre {
+  position: relative;
 }
 
 a {
