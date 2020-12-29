@@ -71,6 +71,21 @@ main {
   border-color: rgba(223, 225, 229, 0);
 }
 
+.search-buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+}
+#btn {
+  padding: 0 14px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #3c4043;
+}
+
 footer {
   background: #f2f2f2;
   font-size: 14px;
